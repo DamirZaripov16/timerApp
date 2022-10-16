@@ -73,9 +73,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="TimerLabel" destination="6TO-hG-5QQ" id="nwC-C6-irp"/>
                         <outlet property="startButton" destination="kNv-hb-Tzn" id="M8W-qd-qm0"/>
                         <outlet property="stopButton" destination="ay8-yB-IxW" id="Kun-dg-LwV"/>
+                        <outlet property="timerLabel" destination="6TO-hG-5QQ" id="A2G-Ba-Igk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

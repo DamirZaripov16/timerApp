@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     // MARK: - Private methods
     
     private func secondsToMinutesSeconds(seconds: Int) -> (minutes: Int, seconds: Int) {
-        (seconds / 60, seconds)
+        (seconds / 60, seconds % 60)
     }
 
     private func makeTimeString(minutes: Int, seconds: Int) -> String {

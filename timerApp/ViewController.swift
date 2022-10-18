@@ -51,6 +51,7 @@ class ViewController: UIViewController {
                 userInfo: nil,
                 repeats: true
             )
+            RunLoop.current.add(timer, forMode: .default)
         } else {
             timer.invalidate()
         }
